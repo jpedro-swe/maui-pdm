@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appUsandoTabbedPage_45732167.Views.Principal"
+             Title="História da Pizza">
+
+    <ContentPage Title="A Origem da Pizza Calabresa" BackgroundImageSource="fundopizza.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label
+                    Text="Pizza Calabresa"
+                    FontAttributes="Bold"
+                    FontSize="Large"
+                    HorizontalOptions="Center" />
+                <Image
+                    Source="pizzacalabresa.png"
+                    WidthRequest="250"
+                    HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="A pizza calabresa é uma criação tipicamente brasileira, apesar de seu nome remeter à região da Calábria, na Itália. Ela surgiu em São Paulo por volta da década de 1960, quando pizzarias começaram a adaptar receitas italianas ao paladar local. A estrela do recheio é a linguiça calabresa defumada, cortada em rodelas finas e geralmente acompanhada de cebola, queijo derretido e molho de tomate. Embora a linguiça tenha origem italiana, o estilo da pizza — com cobertura generosa e sabor marcante — foi moldado pela cultura paulistana. A primeira menção à pizza calabresa em jornais brasileiros data da década de 1950, e desde então ela se tornou uma das mais pedidas em todo o país."
+                               HorizontalOptions="FillAndExpand"
+                               FontAttributes="Bold"
+                               FontSize="Medium"
+                               TextColor="Maroon" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="A Origem da Pizza Marguerita" BackgroundImageSource="fundopizza.png">
+        <ScrollView>
+            <StackLayout Padding="5, 25">
+                <Label
+                Text="Pizza Marguerita"
+                FontAttributes="Bold"
+                FontSize="Large"
+                HorizontalOptions="Center" />
+                <Image
+                Source="pizzamarguerita.png"
+                WidthRequest="250"
+                HeightRequest="250" />
+                <StackLayout Padding="50, 10">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="A pizza marguerita nasceu em Nápoles, Itália, em 1889, como uma homenagem à rainha Margherita di Savoia. Conta a história que, durante uma visita à cidade, a rainha quis experimentar a comida típica do povo. O pizzaiolo Raffaele Esposito criou então uma pizza com as cores da bandeira italiana: Vermelho (tomate), Branco (muçarela), Verde (manjericão).
+A rainha adorou, e o prato foi batizado com seu nome. Desde então, a marguerita se tornou um símbolo da culinária italiana, valorizando ingredientes simples, frescos e de alta qualidade.
+No Brasil, ela é considerada uma das pizzas mais elegantes e tradicionais, muito apreciada por quem busca sabor autêntico com um toque leve e aromático."
+                           HorizontalOptions="FillAndExpand"
+                           FontAttributes="Bold"
+                           FontSize="Medium"
+                           TextColor="Maroon" />
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage>
+</TabbedPage>
