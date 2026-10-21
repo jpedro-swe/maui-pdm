@@ -1,34 +1,39 @@
 # 🍕 MAUI PDM - História da Pizza
 
-Aplicativo mobile desenvolvido em .NET MAUI para demonstrar o uso de `TabbedPage` em um projeto de disciplina de Programação para Dispositivos Móveis.
+<p align="center">
+  <img src="https://img.shields.io/badge/MAUI-.NET%2010-512BD4?style=for-the-badge&logo=dotnet" alt="MAUI" />
+  <img src="https://img.shields.io/badge/C%23-100%25-239120?style=for-the-badge&logo=csharp" alt="C#" />
+  <img src="https://img.shields.io/badge/Platform-Android%20%7C%20iOS%20%7C%20Windows-0078D4?style=for-the-badge" alt="Plataformas" />
+</p>
 
-O app apresenta duas abas com informações sobre a origem e a história de duas pizzas muito conhecidas: a calabresa e a marguerita, com textos ilustrados e uma interface visual agradável.
+Aplicativo mobile desenvolvido em .NET MAUI para apresentar a história de duas pizzas famosas: a calabresa e a marguerita. O projeto foi criado como exemplo prático de uso de `TabbedPage` e navegação por abas em interfaces mobile.
 
-## 📱 Visão geral
+## 📱 Sobre o projeto
 
-Este projeto foi criado para explorar:
+Este repositório contém uma aplicação mobile simples, visualmente atraente e educativa, com foco em:
 
+- criação de interfaces com XAML;
 - uso de `TabbedPage` em MAUI;
-- organização de telas em `Views`;
-- criação de interface com XAML;
-- desenvolvimento de um app para Android/iOS/macOS/Windows;
-- apresentação de conteúdo educativo em formato de app mobile.
+- organização da estrutura por views;
+- apresentação de conteúdo com imagens e textos;
+- estudo de programação para dispositivos móveis.
+
+A aplicação foi desenvolvida em linguagem C# com a tecnologia .NET MAUI, permitindo execução em diferentes plataformas:
+
+- Android
+- iOS
+- macOS
+- Windows
 
 ## ✨ Funcionalidades
 
-- interface com múltiplas abas de navegação;
-- páginas com textos sobre a origem da pizza calabresa e da pizza marguerita;
-- imagens e layout visual com tema de pizzaria;
-- estrutura básica pronta para expansão.
+- Navegação por abas com duas páginas principais;
+- Conteúdo histórico sobre a pizza calabresa;
+- Conteúdo histórico sobre a pizza marguerita;
+- Layout visual amigável com imagens e fundo temático;
+- Estrutura pronta para expansão e adaptação.
 
-## 🛠️ Stack tecnológica
-
-- C#
-- .NET MAUI
-- XAML
-- Microsoft.Extensions.Logging
-
-## 📁 Estrutura do projeto
+## 🧩 Estrutura do projeto
 
 ```text
 maui-pdm/
@@ -50,60 +55,71 @@ maui-pdm/
 │   └── Splash/
 ├── Views/
 │   └── Principal.xaml
-└── Principal.xaml.cs
+│   └── Principal.xaml.cs
+└── .gitignore
 ```
 
-## 🚀 Pré-requisitos
+## 🛠️ Tecnologias utilizadas
 
-Antes de rodar o projeto, certifique-se de ter instalado:
+- C#
+- .NET MAUI
+- XAML
+- Visual Studio / .NET SDK
+- Microsoft.Extensions.Logging
 
-- .NET SDK 10.0
-- workload do MAUI
-- um emulador ou dispositivo físico para executar o app
+## 🚀 Como executar
 
-Se estiver em Windows, também pode ser necessário configurar o ambiente para Android/Windows MAUI.
-
-## ▶️ Como executar
-
-1. Clone o repositório:
+### 1) Clone o repositório
 
 ```bash
 git clone https://github.com/jpedro-swe/maui-pdm.git
 cd maui-pdm
 ```
 
-2. Restaure os pacotes:
+### 2) Restaure os pacotes
 
 ```bash
 dotnet restore
 ```
 
-3. Execute o build do projeto:
+### 3) Compile o projeto
 
 ```bash
 dotnet build
 ```
 
-4. Inicie o app em um emulador ou dispositivo:
+### 4) Execute o aplicativo
+
+Para Android:
 
 ```bash
 dotnet build -f net10.0-android
 ```
 
-> Ajuste a plataforma conforme o ambiente de desenvolvimento e o dispositivo alvo.
+> Caso queira rodar em outra plataforma, ajuste o target framework conforme o ambiente de desenvolvimento disponível.
 
-## 🧠 Sobre a tela principal
+## 📸 Tela principal
 
-A tela principal foi implementada em `Views/Principal.xaml` e usa `TabbedPage` para separar os conteúdos em abas, oferecendo uma navegação simples e visualmente atrativa.
+A tela principal está localizada em `Views/Principal.xaml` e utiliza `TabbedPage` para separar os conteúdos em abas com foco nas principais pizzas históricas.
 
-## 📌 Observações
+## 🧠 Objetivo didático
 
-Este projeto é uma aplicação didática, ideal para fins de estudo e aprendizado de desenvolvimento móvel com .NET MAUI.
+Este projeto foi pensado como um exemplo didático para a disciplina de Programação para Dispositivos Móveis, demonstrando conceitos básicos de:
 
-## 🏷️ Licença
+- desenvolvimento mobile;
+- criação de interfaces com XAML;
+- navegação em abas;
+- uso de imagens e textos em app mobile;
+- organização de código em projetos MAUI.
 
-Este projeto está licenciado sob a licença MIT conforme o arquivo `LICENSE.txt`.
+## 📘 Licença
+
+Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE.txt` para mais detalhes.
+
+## 👤 Autor
+
+Projeto desenvolvido por João Pedro em contexto de estudo e prática de desenvolvimento de aplicações móveis com .NET MAUI.
 
 ---
 
-Desenvolvido como exemplo de aplicação MAUI para a disciplina de Programação para Dispositivos Móveis.
+Se quiser, também posso criar uma versão do README com visual mais premium, com badges, screenshot placeholders e uma seção de "Como funciona" mais detalhada.
