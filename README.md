@@ -121,5 +121,3 @@ Este projeto está licenciado sob a licença MIT. Consulte o arquivo `LICENSE.tx
 Projeto desenvolvido por João Pedro em contexto de estudo e prática de desenvolvimento de aplicações móveis com .NET MAUI.
 
 ---
-
-Se quiser, também posso criar uma versão do README com visual mais premium, com badges, screenshot placeholders e uma seção de "Como funciona" mais detalhada.
